@@ -7,8 +7,8 @@
     "tools-dev": "./bin/tools-dev.mjs"
   },
   "scripts": {
-    "build": "node ./esbuild.config.mjs",
-    "dev": "tsx ./src/index.ts",
+    "build": "node init && node ./esbuild.config.mjs",
+    "dev": "node init && tsx ./src/index.ts",
     "test": "node --import tsx --test tests/*.test.ts",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
