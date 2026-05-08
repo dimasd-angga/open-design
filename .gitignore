@@ -9,7 +9,6 @@ out/
 /OpenDesign.exe
 .vite
 .astro/
-.vscode
 
 # Local runtime data — auto-created by the daemon on first start.
 # Holds app.sqlite (project metadata), projects/<id>/ (per-project artifacts,
@@ -26,6 +25,7 @@ e2e/reports/test-results
 e2e/reports/results.json
 e2e/reports/junit.xml
 e2e/reports/latest.md
+temp_auto_push.bat
 e2e/ui/.od-data
 e2e/ui/reports
 e2e/ui/test-results
@@ -54,3 +54,5 @@ specs/change/active
 
 # Local design assistant context
 .impeccable.md
+.gitignore
+branch_structure.json
